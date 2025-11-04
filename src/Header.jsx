@@ -7,7 +7,7 @@ export function Header({image}) {
     src={image}
     alt="GRIGORKIN" />
 
-    <div className="flex items-center gap-8">
+    <ul className="flex items-center gap-8">
       <NavLink>
         Обо мне
       </NavLink>
@@ -20,7 +20,7 @@ export function Header({image}) {
       <NavLink>
         Контакты
       </NavLink>
-    </div>
+    </ul>
   </nav>
   )
 }

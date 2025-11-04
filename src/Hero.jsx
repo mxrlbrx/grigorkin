@@ -2,9 +2,9 @@ import { PrimaryButton } from "./PrimaryButton";
 import { FixedBlur } from "./FixedBlur";
 
 
-export function MainUnit() {
+export function Hero() {
   return (
-  <div className="flex flex-col items-center">
+  <section className="flex flex-col items-center mt-24" id="home">
     <img 
       src="/myPhoto2.png" 
       alt="My photo" 
@@ -19,7 +19,7 @@ export function MainUnit() {
     <PrimaryButton>
       Узнать подробнее
     </PrimaryButton>
-    <FixedBlur />
-  </div>
+    {/* <FixedBlur /> */}
+  </section>
   )
 }
