@@ -1,4 +1,4 @@
-import { NavLink } from './NavLink';
+import { NavLink } from "@/components/ui/NavLink/NavLink.tsx";
 
 export function Header({image}) {
   return (

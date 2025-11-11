@@ -1,7 +1,6 @@
-import { useState } from 'react'
-import './App.css'
-import { Header } from './Header'
-import { Hero } from './Hero'
+import '@/App.css'
+import { Header } from '@/layout/Header/Header'
+import { Hero } from '@/Hero'
 
 function App() {
 

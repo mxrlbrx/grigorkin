@@ -1,5 +1,5 @@
-import { PrimaryButton } from "./PrimaryButton";
-import { FixedBlur } from "./FixedBlur";
+import { Button } from "@/components/ui/Button/Button.tsx";
+
 
 
 export function Hero() {
@@ -16,9 +16,9 @@ export function Hero() {
     <p className="mb-16 text-xl">
       Я занимаюсь веб-разработкой, используя современные технологии 
     </p>
-    <PrimaryButton>
+    <Button>
       Узнать подробнее
-    </PrimaryButton>
+    </Button>
     {/* <FixedBlur /> */}
   </section>
   )
