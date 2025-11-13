@@ -1,6 +1,4 @@
-import { Button } from "@/components/ui/Button/Button.tsx";
-
-
+import { Button } from "@/components/ui/Button/Button";
 
 export function Hero() {
   return (
@@ -10,16 +8,15 @@ export function Hero() {
       alt="My photo" 
       className="mb-8"
     />
-    <p className="mb-8 font-bold text-[2.25rem]">
+    <p className="mb-8 font-bold text-5xl">
       Григоркин Кирилл
     </p>
-    <p className="mb-16 text-xl">
+    <p className="mb-16 text-2xl">
       Я занимаюсь веб-разработкой, используя современные технологии 
     </p>
     <Button>
       Узнать подробнее
     </Button>
-    {/* <FixedBlur /> */}
   </section>
   )
 }

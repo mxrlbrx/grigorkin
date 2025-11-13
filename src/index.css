@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: #F0F4F8;
-  background-color: #202020;
+  background-color: #131313;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -51,13 +51,12 @@ button {
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
-  border-color: #F0F4F8;
-  color: #F0F4F8;
+  background-color: #98D553;
+  color: #131313;
 }
 button:hover {
-  background-color: #F8F4E6;
-  border-color: #F8F4E6;
-  color: #202020;
+  background-color: #7EAF47;
+  color: #131313;
 }
 
 @media (prefers-color-scheme: light) {

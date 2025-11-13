@@ -1,6 +1,6 @@
 import '@/App.css'
 import { Header } from '@/layout/Header/Header'
-import { Hero } from '@/Hero'
+import { Hero } from '@/sections/Hero'
 
 function App() {
 
