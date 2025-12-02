@@ -3,7 +3,7 @@ export function ProfileCard() {
   <div className="[w-21.875rem] h-[30rem] p-12 bg-[#060606] border border-[#F0F4F8] rounded-lg shadow-lg">
     <div className="mb-6">
       <img 
-        src="./public/my-Photo.png" 
+        src="/MyPhoto.png" 
         alt="My Photo" 
       />
     </div>
