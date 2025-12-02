@@ -2,7 +2,7 @@ import { NavLink } from "@/components/ui/NavLink/NavLink";
 import { useEffect, useState, type PropsWithChildren } from "react";
 
 interface HeaderProps extends PropsWithChildren {
-  image: string
+  image: string;
 }
 
 export function Header({image, children}: HeaderProps) {

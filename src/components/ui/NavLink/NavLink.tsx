@@ -1,7 +1,7 @@
 import { type PropsWithChildren } from "react";
 
 interface NavLinkProps extends PropsWithChildren { 
-  href: string
+  href: string;
   onClick?: () => void;
 }
 

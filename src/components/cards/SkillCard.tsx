@@ -1,8 +1,8 @@
 import type { PropsWithChildren } from "react"
 
 interface SkillCardProps extends PropsWithChildren {
-  icon: string
-  description: string
+  icon: string;
+  description: string;
 }
 
 export function SkillCard({ icon, description }: SkillCardProps) {

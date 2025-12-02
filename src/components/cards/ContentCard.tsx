@@ -1,11 +1,11 @@
 import type { PropsWithChildren } from "react";
 
 interface ContentCardProps extends PropsWithChildren {
-  title?: React.ReactNode
-  icon?: string
-  fullWidth?: boolean
-  fullHeight?: boolean
-  description: string
+  title?: React.ReactNode;
+  icon?: string;
+  fullWidth?: boolean;
+  fullHeight?: boolean;
+  description: string;
 }
 
 export function ContentCard({
