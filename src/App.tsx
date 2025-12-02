@@ -1,18 +1,20 @@
 import '@/App.css'
-import { Header } from '@/layout/Header/Header'
-import { Hero } from '@/sections/Hero'
+import { Layout } from '@/components/Layout';
+import { Header } from './layout/Header/Header';
+import { Hero } from './sections/Hero';
+import { Skills } from './sections/Skills';
 
-function App() {
-
+export function App() {
   return (
-    <>
-    <header>
-      <Header image='/myLogo.svg' />
-    </header>
-    <Hero />
-
-    </>
+    <Layout>
+      <header>
+        <Header image='/myLogo.svg' />
+      </header>
+      
+      <main className="mt-20">
+        <Hero />
+        <Skills />
+      </main>
+    </Layout>
   )
 }
-
-export default App
