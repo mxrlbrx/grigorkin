@@ -29,7 +29,7 @@ export function Skills() {
       description: "Статическая типизация для масштабируемых и надежных приложений, работа с дженериками",
     },
     {
-      icon: "/skillCardIcons/tailwind.svg", // Используйте другую иконку
+      icon: "/skillCardIcons/tailwindcss.svg",
       description: "Утилитарный CSS-фреймворк для быстрой стилизации",
     },
   ];
