@@ -8,7 +8,10 @@ export function Projects() {
     '/images/photo2.png',
     '/images/photo3.png',
     '/images/photo4.png',
-    '/images/photo5.png'
+    '/images/photo5.png',
+    '/images/photo6.png',
+    '/images/photo7.png',
+    '/images/photo8.png',
   ];
 
   return (
